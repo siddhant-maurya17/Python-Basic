@@ -19,7 +19,18 @@ print("Extract last five Element and Step index must be 2: ",list[-5:n:2])
 
 print("Extract from last to First: ",list[::-1])
 
-print("Extarct from last to first with step index -2: ",list[-1::-2])
+print("Extract from last to first with step index -2: ",list[-1::-2])
 
+#New list added
 
+list_1=["A","B","C","D","E","F","G","H"]
 
+m=len(list_1)
+
+print("Extract BDFH from list_1: ",list_1[1::2])
+
+print("Extract BCDE from list_1: ",list_1[1:5:1])
+
+print("Extract ADG from list_1: ",list_1[::3])
+
+print("Extract HGFE from list_1: ",list_1[:-5:-1])
