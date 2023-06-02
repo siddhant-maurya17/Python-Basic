@@ -34,3 +34,11 @@ print("Extract BCDE from list_1: ",list_1[1:5:1])
 print("Extract ADG from list_1: ",list_1[::3])
 
 print("Extract HGFE from list_1: ",list_1[:-5:-1])
+
+a=10;b=20;c=30;d=40;e=50;f=90
+list_2=[a+b,b+c,c+d,d+e,e+f,f+a]
+
+print("Two pair sum in the list",list_2[::])
+
+list_2[1:4]=[10,20,30]
+print("override new values from index 0 to 3 and list_2 look like: ",list_2[::])
