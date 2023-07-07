@@ -1,0 +1,3 @@
+k=[1,2,3,4,5]
+k.sort(reverse=True)
+print(k)
